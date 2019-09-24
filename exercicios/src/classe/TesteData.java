@@ -4,17 +4,15 @@ public class TesteData {
 
 	public static void main(String[] args) {
 		
-		data d1 = new data();
+		Data d1 = new Data();
 		
-		
-
-		data d2 = new data(2,"janeiro",2009);
+		Data d2 = new Data(2,"janeiro",2009);
 		
 		d2.ano = 1999;
 		d2.mes = "Abril";
 		d2.dia = 14;
 		
-		data d3 = new data();
+		Data d3 = new Data();
 		
 		d3.ano = 1988;
 		d3.mes = "Agosto";
