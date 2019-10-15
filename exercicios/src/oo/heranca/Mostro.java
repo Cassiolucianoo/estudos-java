@@ -1,7 +1,19 @@
 package oo.heranca;
 
 public class Mostro extends jogador {
-boolean atacar(jogador oponente) {
+
+	
+	public Mostro() {
+		this(0, 0);
+		
+	}
+	
+	public Mostro(int x, int y) {
+		super(x, y);
+		
+	}
+
+	public boolean atacar(jogador oponente) {
 		
 		int deltaX = Math.abs(x - oponente.x);
 		int deltaY = Math.abs(y - oponente.y);
