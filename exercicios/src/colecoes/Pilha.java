@@ -27,7 +27,7 @@ public class Pilha {
 		System.out.println(livros.pop());
 		System.out.println(livros.remove());
 		
-
+        livros.isEmpty(); // está sem conteudo ?
 	}
 
 }

@@ -40,6 +40,7 @@ public class ConjuntoBaguncado {
 		System.out.println(nums);
 		System.out.print(conjunto);
 		
+		//conjunto.retainAll(nums); UNIÃO ENTRE CONJUNTOS
 		conjunto.retainAll(nums);
 		System.out.println(conjunto);
 		

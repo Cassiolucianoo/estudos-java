@@ -7,7 +7,7 @@ public class Lista {
 	public static void main(String[] args) {
 		ArrayList<Usuario> lista = new ArrayList<>();
 		
-		Usuario u1 = new Usuario("Cassio");
+		Usuario u1 = new Usuario("Cassio luciano da silva0");
 		
 		lista.add(u1);
 		lista.add(new Usuario("Luciano"));
@@ -19,6 +19,8 @@ public class Lista {
 		
 		System.out.println(lista.get(3).nome);//acessa pelo indice da listya
 		System.out.println("-->>>>"+lista.remove(1));
+		
+		//lista.remove(new Usuario("Manu"));
 		//lista.remove(1);
 		System.out.println(lista.remove(new Usuario("Manu")));
 		System.out.println("Tem ? "+lista.contains(new Usuario("Lia")));
@@ -26,10 +28,7 @@ public class Lista {
 		for(Usuario u : lista) {
 			System.out.println(u.toString());
 		}
-		
-		
-		
-
+			
 	}
 
 }

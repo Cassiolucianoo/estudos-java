@@ -31,7 +31,7 @@ public class Fila {
 		
 		//Diferença é o comportamento ocorre
 		//quando a fila está vazia!
-		System.out.println(fila.poll());//retorna false
+		System.out.println(fila.poll());//retorna null
 		System.out.println(fila.remove());//lança uma exceção
 		System.out.println(fila.poll());
 		System.out.println(fila.poll());
