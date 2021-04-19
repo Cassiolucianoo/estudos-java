@@ -16,11 +16,7 @@ public class Compra {
 	void adicionarItem(Item item) {
 		this.items.add(item);
 	
-		
 	}
-	
-	
-	
 	
 }
 
