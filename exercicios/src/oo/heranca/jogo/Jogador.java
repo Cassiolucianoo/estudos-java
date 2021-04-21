@@ -1,15 +1,15 @@
-package oo.heranca;
+package oo.heranca.jogo;
 
-public class jogador {
+public class Jogador {
 	public int vida = 100;
 	public int x;
 	public int y;
  
-	protected jogador(int x, int y){
+	protected Jogador(int x, int y){
 		this.x = x;
 		this.y = y;
 	}
-	public boolean atacar(jogador oponente) {
+	public boolean atacar(Jogador oponente) {
 		
 		int deltaX = Math.abs(x - oponente.x);
 		int deltaY = Math.abs(y - oponente.y);

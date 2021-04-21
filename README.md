@@ -26,6 +26,20 @@
 Exemplos: [Fundamentos](https://github.com/Cassiolucianoo/estudos-java/tree/master/exercicios/src/fundamentos).
 Exemplos: [ Operadores ](https://github.com/Cassiolucianoo/estudos-java/tree/master/exercicios/src/operadores).
 
+# Estruturas de Controle
+
+- Estruturas de controle de decisão são instruções em linguagem Java que permitem que blocos específicos de código sejam escolhidos para serem executados, redirecionando determinadas partes do fluxo do programa.
+
+- Usar estruturas de controle de decisão (if e switch) que permitem a seleção de partes
+específicas do código para execução
+
+- Usar estruturas de controle de repetição (while, do-while e for) que permitem a
+repetição da execução de partes específicas do código
+
+- Usar declarações de interrupção (break, continue e return) que permitem o redirecionamento do fluxo do programa
+
+Exemplos: [ Estruturas de Controle ](https://github.com/Cassiolucianoo/estudos-java/tree/master/exercicios/src/estruturasDeControle).
+
 # Estudos-java
 
 ## Array
@@ -58,7 +72,6 @@ Exemplos: [Array](https://github.com/Cassiolucianoo/estudos-java/tree/master/exe
 - mapeia chaves para valores. Cada elemento tem na verdade dois objetos: uma chave e um valor. Valores podem ser duplicados, mas chaves não. SortedMap é uma interface que estende Map, e permite classificação ascendente das chaves. Uma aplicação dessa interface é a classe Properties, que é usada para persistir propriedades/configurações de um sistema, por exemplo.
 
 Exemplos: [Collection](https://github.com/Cassiolucianoo/estudos-java/tree/master/exercicios/src/colecoes).
-
 
 # Estudos-java OO
 

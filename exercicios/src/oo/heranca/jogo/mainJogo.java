@@ -1,10 +1,6 @@
-package oo.heranca.teste;
+package oo.heranca.jogo;
 
-import oo.heranca.Direcao;
-import oo.heranca.Heroi;
-import oo.heranca.Mostro;
-
-public class jogo {
+public class mainJogo {
 
 	public static void main(String[] args) {
 		
