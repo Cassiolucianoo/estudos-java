@@ -2,22 +2,31 @@ package oo.heranca.desafio2021;
 
 public class Carro {
 	protected int velocidadeAtual;
-	protected String estadoCarro;
+	protected  String estadoCarro;
+    protected double combustivel = 100.0;
+    protected String modelo;
+	
+    Carro (){
+		
+	}
 
-	void acelerar() {
+	public void acelerar() {
 		if (this.estadoCarro == "Ligado") {
+			this.combustivel -= 1.00;
 			this.velocidadeAtual += 5;
 		} else {
-			estadoCarro = "Desligado";
+			this.estadoCarro = "Desligado";
 		}
 	}
 
 	void freiar() {
 		if (this.velocidadeAtual == 0) {
 			desligado();
-			estadoCarro = "Seu carro está parado e morreu! Ligue ele novamente";
+			this.estadoCarro = "Seu carro está parado e morreu! Ligue ele novamente";
 		} else {
+			this.combustivel -= 1.00;
 			this.velocidadeAtual -= 5;
+			
 		}
 	}
 
@@ -31,7 +40,7 @@ public class Carro {
 	}
 
 	public String toString() {
-		return "Velocidade atual é " + velocidadeAtual + "Km/h."+ estadoCarro;
+		return this.modelo+" Velocidade atual é " + this.velocidadeAtual + "Km/h."+ this.estadoCarro+" Gastos em litros = "+this.combustivel;
 	}
 
 }

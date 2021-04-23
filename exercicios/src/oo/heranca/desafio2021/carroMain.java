@@ -32,7 +32,37 @@ public class carroMain {
 		
 		novoCorsa.freiar();
 		System.out.println(novoCorsa);
-
+		
+		
+		Gol g5 = new Gol();
+		
+		g5.acelerar();
+		System.out.println(g5);
+		
+		g5.ligado();
+		System.out.println(g5);
+		
+		g5.acelerar();
+		System.out.println(g5);
+		
+		g5.acelerar();
+		System.out.println(g5);
+		
+		g5.freiar();
+		System.out.println(g5);
+		
+		g5.freiar();
+		System.out.println(g5);
+		
+		g5.freiar();
+		System.out.println(g5);
+		
+		g5.freiar();
+		System.out.println(g5);
+		
+		g5.freiar();
+		System.out.println(g5);
+		
 	}
 
 }

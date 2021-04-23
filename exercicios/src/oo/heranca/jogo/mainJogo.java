@@ -12,7 +12,7 @@ public class mainJogo {
 		
 		Heroi heroi = new Heroi ();
 		heroi.x = 10;
-		heroi.y = 11;
+		heroi.y = 10;
 		
 		System.out.println(mostro.vida);
 		System.out.println(heroi.vida);
@@ -27,6 +27,8 @@ public class mainJogo {
 		
 		mostro.atacar(heroi);
 		mostro.atacar(mostro);
+		mostro.atacar(heroi);
+		mostro.atacar(heroi);
 		
 		System.out.println("Mostro tem ====>"+mostro.vida);
 		System.out.println("Heroi tem ====>"+heroi.vida);

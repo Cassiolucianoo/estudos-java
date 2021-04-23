@@ -88,3 +88,13 @@ Isso deixa seu código mais elegante, menor e mais seguro.
 
 Exemplos: [Composição](https://github.com/Cassiolucianoo/estudos-java/tree/master/exercicios/src/oo/composicao).
 
+## Herança
+- A herança é um princípio da POO que permite a criação de novas classes a partir de outras previamente criadas. Essas novas classes são chamadas de subclasses, ou classes derivadas; e as classes já existentes, que deram origem às subclasses, são chamadas de superclasses, ou classes base. Deste modo é possível criar uma hierarquia dessas classes, tornando, assim, classes mais amplas e classes mais específicas. Uma subclasse herda métodos e atributos de sua superclasse; apesar disso, pode escrevê-los novamente para uma forma mais específica de representar o comportamento do método herdado.
+
+- Exemplo da sobrescrita de método.
+- Testando a chamada super.
+
+Exemplos: [Herança](https://github.com/Cassiolucianoo/estudos-java/tree/master/exercicios/src/oo/heranca).
+
+
+
