@@ -97,4 +97,50 @@ Exemplos: [Composição](https://github.com/Cassiolucianoo/estudos-java/tree/mas
 Exemplos: [Herança](https://github.com/Cassiolucianoo/estudos-java/tree/master/exercicios/src/oo/heranca).
 
 
+## Encapsulamento
+- A ocultação de informações é considerada parte do encapsulamento, mas se fizermos uma pesquisa na internet, podemos encontrar a seguinte definição para encapsulamento: Um mecanismo da linguagem de programação para restringir o acesso a alguns componentes dos objetos, escondendo os dados de uma classe e tornando-os disponíveis somente através de métodos.
+Na verdade, o mecanismo para restringir o acesso a alguns dos componentes do objeto é a definição de ocultação de informações. O encapsulamento é um conceito da Programação Orientada a Objetos onde o estado de objetos (as variáveis da classe) e seus comportamentos (os métodos da classe) são agrupados em conjuntos segundo o seu grau de relação.
+
+## modificadores de acesso
+- São 4 os modificadores de acesso básicos da linguagem Java: **private**, **padrão**, **protected** e **public**. Eles servem para tornar componentes da sua aplicação mais ou menos acessíveis por outras partes do seu programa.
+
+Todas as classes declaradas neste post fazem uso apenas do modificador public. As classes também podem fazer uso dos outros modificadores de acesso, mas neste primeiro momento veremos apenas como os seus membros funcionam com cada um deles.
+
+###### public
+- O modificador de acesso public é o menos restritivo de todos. Ele permite que qualquer outra parte da sua aplicação tenha acesso ao componente marcado como public.
+
+###### protected
+- Os membros das classes marcados com o modificador de acesso protected serão acessíveis por classes e interfaces dentro do mesmo pacote e por classes derivadas mesmo que estejam em pacotes diferentes.
+
+###### padrão
+- O modificador de acesso padrão, também conhecido como acessibilidade de pacote, é o modificador atribuído aos membros da classe que não foram marcados explicitamente com um outro modificador de acesso. Membros com acessibilidade de pacote só podem ser acessados por outras classes ou interfaces definidas dentro do mesmo pacote.
+
+###### private
+- O modificador de acesso private é o mais restritivo modificador de acesso. Todo membro de uma classe definido com o modificador private só é acessível para a própria classe. Não importa a localização dentro de pacotes ou se a classe foi herdada ou não, um membro private só é acessível dentro da mesma classe em que ele foi declarado.
+
+## Conclusão modificadores de acesso
+- Os modificadores de acesso auxiliam na organização dos componentes da sua aplicação ao tornar os membros das classes mais ou menos acessíveis por outras partes do seu programa.
+
+Os modificadores de acesso em ordem do mais restritivo para o menos restritivo são:
+
+1. private
+2. padrão ou acessibilidade de pacote
+3. protected
+4. public
+
+Exemplos: [modificadores de acesso](https://github.com/Cassiolucianoo/estudos-java/tree/master/exercicios/src/oo/encapsulamento).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

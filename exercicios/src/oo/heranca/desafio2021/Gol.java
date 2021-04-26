@@ -14,8 +14,7 @@ public class Gol extends Carro {
 			this.velocidadeAtual += 10;
 		} else {
 			this.estadoCarro = "Desligado";
-		}
-			 
+		}	 
 			}
 
 }
