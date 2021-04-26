@@ -3,11 +3,11 @@ package oo.polimorfismo;
 public class Jantar {
 
 	public static void main(String[] args) {
-		Pessoa convidado = new Pessoa(99.5);
+		Pessoa convidado = new Pessoa(73);
 		
 		Arroz ingrediente1 = new Arroz(0.2);
 		Feijao ingrediente2 = new Feijao(0.1);
-		Sorvete ingrediente3 = new Sorvete(0.200);
+		Sorvete ingrediente3 = new Sorvete(0.400);
 		
 		System.out.println(convidado.getPeso());
 		

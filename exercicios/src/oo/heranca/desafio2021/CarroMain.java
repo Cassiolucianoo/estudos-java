@@ -1,6 +1,6 @@
 package oo.heranca.desafio2021;
 
-public class carroMain {
+public class CarroMain {
 
 	public static void main(String[] args) {
 	

@@ -130,6 +130,23 @@ Os modificadores de acesso em ordem do mais restritivo para o menos restritivo s
 
 Exemplos: [modificadores de acesso](https://github.com/Cassiolucianoo/estudos-java/tree/master/exercicios/src/oo/encapsulamento).
 
+## Polimorfismo
+- Significa "muitas formas", é o termo definido em linguagens orientadas a objeto, como por exemplo Java, C# e C++, que permite ao desenvolvedor usar o mesmo elemento de formas diferentes. Polimorfismo denota uma situação na qual um objeto pode se comportar de maneiras diferentes ao receber uma mensagem. No Polimorfismo temos dois tipos:
+
+- Polimorfismo Estático ou Sobrecarga
+- Polimorfismo Dinâmico ou Sobreposição
+O Polimorfismo Estático se dá quando temos a mesma operação implementada várias vezes na mesma classe. A escolha de qual operação será chamada depende da assinatura dos métodos sobrecarregados.
+
+Exemplos: [Polimorfismo](https://github.com/Cassiolucianoo/estudos-java/tree/master/exercicios/src/oo/polimorfismo).
+
+## Interface
+- Um recurso muito utilizado em Java, bem como na maioria das linguagens orientadas a objeto, para “obrigar” a um determinado grupo de classes a ter métodos ou propriedades em comum para existir em um determinado contexto, contudo os métodos podem ser implementados em cada classe de uma maneira diferente. Pode-se dizer, a grosso modo, que uma interface é um contrato que quando assumido por uma classe deve ser implementado.
+
+- Por fim, interface nada mais que uma espécie de contrato de regras que uma classes deve seguir em um determinado contexto. Como em Java não existe herança múltipla, a interface passa a ser uma alternativa.
+
+Exemplos: [Interface 1](https://github.com/Cassiolucianoo/estudos-java/tree/master/exercicios/src/oo/heranca/desafio).
+
+Exemplos: [Interface 2](https://github.com/Cassiolucianoo/estudos-java/tree/master/exercicios/src/oo/desafioInterface2021).
 
 
 
