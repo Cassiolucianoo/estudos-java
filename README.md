@@ -146,7 +146,7 @@ Exemplos: [Polimorfismo](https://github.com/Cassiolucianoo/estudos-java/tree/mas
 
 Exemplos: [Interface 1](https://github.com/Cassiolucianoo/estudos-java/tree/master/exercicios/src/oo/heranca/desafio).
 
-Exemplos: [Interface 2](https://github.com/Cassiolucianoo/estudos-java/tree/master/exercicios/src/oo/desafioInterface2021).
+Exemplos: [Interface 2](https://github.com/Cassiolucianoo/estudos-java/tree/master/exercicios/src/oo/heranca/desafioInterface2021).
 
 
 
