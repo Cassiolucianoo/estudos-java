@@ -40,7 +40,7 @@ repetição da execução de partes específicas do código
 
 Exemplos: [ Estruturas de Controle ](https://github.com/Cassiolucianoo/estudos-java/tree/master/exercicios/src/estruturasDeControle).
 
-# Estudos-java
+# Array - Collection
 
 ## Array
 - Os arrays ou matrizes, como são conhecidos pelo Java, fazem parte do pacote java. util na coleção da API do Java. São objetos de recipientes que contém um número fixo de valores de um único tipo. ... Cada item em um array é chamado de elemento, e cada elemento é acessado pelo número, o índice.
@@ -73,7 +73,7 @@ Exemplos: [Array](https://github.com/Cassiolucianoo/estudos-java/tree/master/exe
 
 Exemplos: [Collection](https://github.com/Cassiolucianoo/estudos-java/tree/master/exercicios/src/colecoes).
 
-# Estudos-java OO
+# java OO
 
 ## Composição
 - É instanciar, ou usar, uma classe/objeto em outra(o). É como se elas se comunicassem, trocassem informações. Ou seja, serve para reutilizar dados, sem ter que criar mais código pra isso.
