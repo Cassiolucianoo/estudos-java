@@ -6,7 +6,12 @@ public class Pessoa {
 	private String nome;
 	private String sobrenome;
 	private int idade;
-
+	
+	
+	public Pessoa() {
+	
+	}
+	
 	public Pessoa(int codigo, String nome, String sobrenome, int idade) {
 		super();
 		this.codigo = codigo;
