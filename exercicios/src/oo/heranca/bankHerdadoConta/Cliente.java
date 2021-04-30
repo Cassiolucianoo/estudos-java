@@ -1,3 +1,5 @@
+package oo.heranca.bankHerdadoConta;
+
 
 public class Cliente {
 	private String cpf;

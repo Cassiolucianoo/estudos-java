@@ -1,3 +1,5 @@
+package oo.heranca.bankHerdadoConta;
+
 
 public class Conta {
 	private double saldo;
