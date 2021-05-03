@@ -8,8 +8,13 @@ public class Pessoa {
 	private int idade;
 	
 	
-	public Pessoa() {
+	public Pessoa(int codigo, String nome) {
+		this.codigo = codigo;
+		this.nome = nome;
+	}
 	
+	public Pessoa() {
+		
 	}
 	
 	public Pessoa(int codigo, String nome, String sobrenome, int idade) {
