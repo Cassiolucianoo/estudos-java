@@ -148,10 +148,27 @@ Exemplos: [Interface 1](https://github.com/Cassiolucianoo/estudos-java/tree/mast
 
 Exemplos: [Interface 2](https://github.com/Cassiolucianoo/estudos-java/tree/master/exercicios/src/oo/heranca/desafioInterface2021).
 
+# JAVA - JDBC
+
+## Como o JDBC funciona?
+JDBC é semelhante ao ODBC, e no principio usava justamente ODBC para conectar-se com o banco de dados. A partir de um código nativo as aplicações Java podiam utilizar qualquer banco de dados que tivesse um driver ODBC disponível. Isso contribuiu bastante para a popularização do JDBC uma vez que existe um driver ODBC para praticamente qualquer banco de dados de mercado.
+ 
+ ###### Dados de Conexão
+ ###### Abrindo uma Conexão
+ ###### Classe Conexões
+ ###### Criar Banco de Dados
+ ###### Criar Tabela
+
+ ###### Inserir Registro
+ ###### Consultar Registros 
+ ###### Atualizar Registro
+ ###### Excluir Registro
+
+Exemplos: [JDBC](https://github.com/Cassiolucianoo/estudos-java/tree/master/exercicios/src/jdbc).
 
 
-
-
+# DAO - Data Access Object no Java
+Exemplos Básico: [DAO](https://github.com/Cassiolucianoo/estudos-java/tree/master/exercicios/src/jdbc).
 
 
 
