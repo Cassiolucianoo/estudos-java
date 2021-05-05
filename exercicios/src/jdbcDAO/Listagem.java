@@ -12,12 +12,11 @@ public class Listagem {
 	public static void main(String[] args) throws SQLException{
 		
 		ConnectionFactory connectionFactory = new ConnectionFactory();
-		Connection connection = connectionFactory.conexao();
+		Connection connection = connectionFactory.recuperaConexao();
 		
-			 
-	
 		PreparedStatement stm = connection.prepareStatement("SELECT ID, NOME,DESCRICAO FROM PRODUTO");
 		stm.execute();
+		
 		ResultSet rst = stm.getResultSet();
 		
 		  while (rst.next()) {

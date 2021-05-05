@@ -6,7 +6,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 
-public class InsercaoComParametro {
+public class InsercaoComParametros {
 
 	public static void main(String[] args) throws SQLException {
 
@@ -14,7 +14,7 @@ public class InsercaoComParametro {
 		String descricao = "Mose zerado na caixa ";
 
 		ConnectionFactory connectionFactory = new ConnectionFactory();
-		Connection connection = connectionFactory.conexao();
+		Connection connection = connectionFactory.recuperaConexao();
 
 		PreparedStatement stm = connection.prepareStatement("INSERT INTO PRODUTO (nome, descricao) VALUES (? , ? )",Statement.RETURN_GENERATED_KEYS);
 		stm.setString(1, nome);

@@ -13,7 +13,7 @@ public class CriarTabelaProduto {
 			
 				
 				ConnectionFactory connectionFactory = new ConnectionFactory();
-				Connection connection = connectionFactory.conexao();
+				Connection connection = connectionFactory.recuperaConexao();
 				
 				//Java 13 text blocks ( Preview )
 				
