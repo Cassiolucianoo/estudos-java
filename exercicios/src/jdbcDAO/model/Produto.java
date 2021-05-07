@@ -1,10 +1,17 @@
-package jdbcDAO.modelo;
+package jdbcDAO.model;
 
 public class Produto {
 
 	private int id;
 	private String nome;
 	private String descricao;
+
+	public Produto(int id, String nome, String descricao) {
+		super();
+		this.id = id;
+		this.nome = nome;
+		this.descricao = descricao;
+	}
 
 	public Produto(String nome, String descricao) {
 		super();
@@ -31,11 +38,11 @@ public class Produto {
 	public void setId(int id) {
 		this.id = id;
 	}
+
 	@Override
 	public String toString() {
-	
-		return String.format(" O produto criado foi :  %d, %s, %s",
-				this.id, this.nome, this.descricao);
+
+		return String.format(" O produto criado foi :  %d, %s, %s", this.id, this.nome, this.descricao);
 	}
-	
+
 }
