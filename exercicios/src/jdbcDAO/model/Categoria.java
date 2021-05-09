@@ -1,35 +1,34 @@
 package jdbcDAO.model;
 
 public class Categoria {
-	
+
+	private Integer id;
+	private String nome;
+
 	public Categoria() {
-		super();
+
 	}
-	public Categoria(int id, String categoria) {
-	
+
+	public Categoria(Integer id, String nome) {
+
 		this.id = id;
-		this.categoria = categoria;
+		this.nome = nome;
 	}
-	public int getId() {
+
+	public Integer getId() {
 		return id;
 	}
-	public void setId(int id) {
+
+	public void setId(Integer id) {
 		this.id = id;
 	}
-	public String getCategoria() {
-		return categoria;
-	}
-	public void setCategoria(String categoria) {
-		this.categoria = categoria;
-	}
-	private int id;
-    private String categoria;
-    
-	@Override
-	public String toString() {
 
-		return String.format(" Lista de Categorias:  %d, %s", this.id, this.categoria);
+	public String getNome() {
+		return nome;
 	}
-    
+
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
 
 }
