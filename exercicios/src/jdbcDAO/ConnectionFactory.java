@@ -28,5 +28,4 @@ public class ConnectionFactory {
 			return this.dataSource.getConnection();
 	}
 
-
 }

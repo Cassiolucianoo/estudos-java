@@ -22,7 +22,7 @@ public class ExcluirPesssoasDesafio {
 			String sql = "DELETE FROM pessoas WHERE nome = ?";
 
 			PreparedStatement stmt = conexao.prepareStatement(sql);
-
+         
 			stmt.setString(1, alterarPessoa.getNome());
 			
 			stmt.execute();

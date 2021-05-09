@@ -21,7 +21,7 @@ public class CriarBanco {
 		Statement stmt = conexao.createStatement();
 
 		// GARANTE QUE O COMANDO RODE NOVAMENTE MESMO COM BANCO CRIADO
-		stmt.execute("CREATE DATABASE IF NOT EXISTS curso_java");
+		stmt.execute("CREATE DATABASE IF NOT EXISTS loja_virtual");
 		// O COMANDO NÃO VAI RODA CASO O BANCO JA EXISTA
 		// stmt.execute("Create database curso_java");
 
