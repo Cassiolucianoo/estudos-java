@@ -1,9 +1,14 @@
 package jdbcDAO.model;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Categoria {
 
 	private Integer id;
 	private String nome;
+	private List<Produto> produtos = new ArrayList<Produto>();
+	public Object getProdutos;
 
 	public Categoria() {
 
@@ -31,4 +36,13 @@ public class Categoria {
 		this.nome = nome;
 	}
 
-}
+	public void adicionar(Produto produto) {
+	produtos.add(produto);
+		
+	}
+
+     public List<Produto> getProdutos() {
+		return produtos;
+	}
+     
+	}
