@@ -1,10 +1,7 @@
-package funcionario_heranca;
+package oo.heranca.funcionario_heranca;
 
 public class Gerente extends Funcionario{
 	private int senha;
-	private boolean valiDaSenha;
-	
-	
 	public int getSenha() {
 		return senha;
 	}
@@ -21,7 +18,6 @@ public class Gerente extends Funcionario{
 	}
 	
 	public void setValiDaSenha(boolean valiDaSenha) {
-		this.valiDaSenha = valiDaSenha;
 	}
 
 	

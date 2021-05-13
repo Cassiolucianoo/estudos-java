@@ -1,4 +1,4 @@
-package funcionario_heranca;
+package oo.heranca.funcionario_heranca;
 
 public class Teste_Funcionario {
 
