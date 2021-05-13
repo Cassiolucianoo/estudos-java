@@ -34,7 +34,7 @@ public class ProdutoCategoriaFrame extends JFrame {
 	private CategoriaController categoriaController;
 
 	public ProdutoCategoriaFrame() {
-		super("Produtos");
+		super("titulo Produtos");
 		Container container = getContentPane();
 		setLayout(null);
 
