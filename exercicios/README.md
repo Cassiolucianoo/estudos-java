@@ -1,0 +1,24 @@
+# Fundamentos da Linguagem Java
+
+- Comentários
+- Variáveis e Constantes
+- Desafio Variáveis e Constantes
+- Inferência de Tipos
+- Tipos Primitivos
+- Notação Ponto
+- Tipo String
+- Objeto vs Primitivo
+- Wrappers
+- Conversão de Tipos Primitivos
+- Conversão Número -> String
+- Conversão String -> Número
+- Operadores
+- Operadores Aritméticos
+- Operadores Lógicos 
+- Operadores Lógicos 
+- Desafio Operadores Lógicos
+- Operadores Relacionais
+- Operadores Atribuição
+- Operadores Unários
+- Operador Ternário
+- Igualdade com Strings
