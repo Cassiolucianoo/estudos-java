@@ -12,7 +12,7 @@ public class AlterarPessoaDesafioCorrecao {
 
 		Scanner entrada = new Scanner(System.in);
 
-		System.out.println("Informe o código da pessoa: ");
+		System.out.println("Informe o cï¿½digo da pessoa: ");
 		int codigo = entrada.nextInt();
 
 		String select = "SELECT codigo, nome, sobre_nome, idade FROM pessoas WHERE codigo = ?";
@@ -26,7 +26,7 @@ public class AlterarPessoaDesafioCorrecao {
 		if (r.next()) {
 			Pessoa p = new Pessoa(r.getInt(1), r.getString(2), r.getString(3), r.getInt(4));
 
-			System.out.println("O nome atual é " + p.getNome() + " " + p.getSobrenome() + " Idade:" + p.getIdade());
+			System.out.println("O nome atual Ã© " + p.getNome() + " " + p.getSobrenome() + " Idade:" + p.getIdade());
 
 			entrada.nextLine();
 
@@ -51,7 +51,7 @@ public class AlterarPessoaDesafioCorrecao {
 
 			
 		}else{
-			System.out.println("Id não encontrado");
+			System.out.println("Id nÃ£o encontrado");
 		}
 		
 		conexao.close();

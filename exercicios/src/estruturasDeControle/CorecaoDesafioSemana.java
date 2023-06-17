@@ -2,7 +2,7 @@ package estruturasDeControle;
 
 import java.util.Scanner;
 
-public class CoreçãoDesafioSemana {
+public class CorecaoDesafioSemana {
 
 	public static void main(String[] args) {
 		Scanner entrada = new Scanner(System.in);
@@ -17,13 +17,13 @@ public class CoreçãoDesafioSemana {
 			System.out.println(4);
 		} else if ("quinta".equalsIgnoreCase(dia)) {
 			System.out.println(5);
-		} else if ("terça".equalsIgnoreCase(dia)||
+		} else if ("terï¿½a".equalsIgnoreCase(dia)||
 				   "terca".equalsIgnoreCase(dia)) {
 			System.out.println(3);
 		} else if ("segunda".equalsIgnoreCase(dia)) {
 			System.out.println(2); 
 		}  else if ("sabado".equalsIgnoreCase(dia)|| 
-				    "sábado".equalsIgnoreCase(dia)) {
+				    "sï¿½bado".equalsIgnoreCase(dia)) {
 					System.out.println(6); 
 		} else {
 			System.out.println("Dia invalido");

@@ -15,7 +15,7 @@ public class AlterarPesssoasDesafio2 {
 		try {
 			Scanner entrada = new Scanner(System.in);
 
-			System.out.println("Codigo de alteração: ");
+			System.out.println("Codigo de alteracÃ£o: ");
 			alterarPessoa.setCodigo(entrada.nextInt());
 
 			System.out.println("Infrome o nome: ");
@@ -36,7 +36,7 @@ public class AlterarPesssoasDesafio2 {
 			conexao.close();
 			entrada.close();
 
-			System.out.println("Alteração realizada !");
+			System.out.println("Alteraï¿½ï¿½o realizada !");
 
 		} catch (SQLException e) {
 			e.printStackTrace();
