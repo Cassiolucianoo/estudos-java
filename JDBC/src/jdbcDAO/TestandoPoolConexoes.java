@@ -11,7 +11,7 @@ public class TestandoPoolConexoes {
 		for (int i = 0; i < 20; i++) {
 			
 			coonectionFactory.recuperaConexao();
-			System.out.println("Conexão de número: "+i);
+			System.out.println("Conexï¿½o de nï¿½mero: "+i);
 		}
 
 	}

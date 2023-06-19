@@ -16,7 +16,7 @@ public class ConexaoTeste {
 				.getConnection(url, usuario, senha);
 	
 		
-		System.out.println("Conexão efetuada com sucesso!");
+		System.out.println("Conexï¿½o efetuada com sucesso!");
 		conexao.close();
 	}
 

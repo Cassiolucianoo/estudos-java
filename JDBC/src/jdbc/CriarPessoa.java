@@ -9,10 +9,10 @@ public class CriarPessoa {
 
 	public static void main(String[] args) throws SQLException {
 		
-		//A Scannerclasse é usada para obter a entrada do usuário e é encontrada no java.utilpacote.
+		//A Scannerclasse ï¿½ usada para obter a entrada do usuï¿½rio e ï¿½ encontrada no java.utilpacote.
 		Scanner entrada = new Scanner(System.in);
 		
-        //conexão com o banco de dados 		
+        //conexï¿½o com o banco de dados 		
 		Connection conexao = Conexao.getConexao();
 		
 		System.out.println("Infrome O nome: ");

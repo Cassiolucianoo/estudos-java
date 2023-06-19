@@ -32,7 +32,7 @@ public class Insercao {
 
 		}
 
-		System.out.println("Fechando Conexão");
+		System.out.println("Fechando Conexï¿½o");
 		connection.close();
 
 	}

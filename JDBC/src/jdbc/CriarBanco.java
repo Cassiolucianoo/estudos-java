@@ -22,7 +22,7 @@ public class CriarBanco {
 
 		// GARANTE QUE O COMANDO RODE NOVAMENTE MESMO COM BANCO CRIADO
 		stmt.execute("CREATE DATABASE IF NOT EXISTS loja_virtual");
-		// O COMANDO NÃO VAI RODA CASO O BANCO JA EXISTA
+		// O COMANDO Nï¿½O VAI RODA CASO O BANCO JA EXISTA
 		// stmt.execute("Create database curso_java");
 
 		System.out.println("Banco criado com sucesso!");

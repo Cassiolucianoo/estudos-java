@@ -24,11 +24,11 @@ public class Listagem {
 			  String nome = rst.getString("NOME");
 			  String descricao = rst.getString("DESCRICAO");
 			  
-			  System.out.println("ID = "+id+", Modelo: "+nome+", Descrição: "+descricao);
+			  System.out.println("ID = "+id+", Modelo: "+nome+", Descriï¿½ï¿½o: "+descricao);
 			
 		}
 		
-			 System.out.println("Fechando Conexão");
+			 System.out.println("Fechando Conexï¿½o");
 	 	    connection.close();
 
 	}

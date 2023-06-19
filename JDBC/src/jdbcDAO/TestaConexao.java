@@ -15,7 +15,7 @@ public class TestaConexao {
 		Connection conexao = DriverManager
 				.getConnection(url, usuario, senha);
 			 
-			 System.out.println("Fechando Conexão");
+			 System.out.println("Fechando Conexï¿½o");
 	 	     conexao.close();
 
 	}

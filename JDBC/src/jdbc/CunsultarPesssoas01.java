@@ -22,7 +22,7 @@ public class CunsultarPesssoas01 {
 		List<Pessoa> pessoas = new ArrayList<>();
 
 		
-		//O metodo next ele retorna um valor true ou false então ele anda na linsta até que retorne um false
+		//O metodo next ele retorna um valor true ou false entï¿½o ele anda na linsta atï¿½ que retorne um false
 		while (resultado.next()) {
 
 			int codigo = resultado.getInt("codigo");

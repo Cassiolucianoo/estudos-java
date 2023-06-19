@@ -46,7 +46,7 @@ public class InsercaoComAutoCommitRollback {
 
 		while (rst.next()) {
 			Integer id = rst.getInt(1);
-			System.out.println("ID = " + id + " Nome :" + nome + "Descrição " + descricao);
+			System.out.println("ID = " + id + " Nome :" + nome + "Descriï¿½ï¿½o " + descricao);
 
 		}
 	}
