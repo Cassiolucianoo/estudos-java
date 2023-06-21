@@ -10,6 +10,8 @@ import org.springframework.web.bind.annotation.RestController;
 import br.com.cassiolucianodasilva.exerciciossb.model.entities.Produto;
 import br.com.cassiolucianodasilva.exerciciossb.model.repositories.ProdutoRepository;
 
+
+
 @RestController
 @RequestMapping("/api/produtos")
 public class ProdutoController {

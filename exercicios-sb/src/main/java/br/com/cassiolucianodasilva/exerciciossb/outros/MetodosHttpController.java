@@ -1,4 +1,4 @@
-package br.com.cassiolucianodasilva.exerciciossb.controllers;
+package br.com.cassiolucianodasilva.exerciciossb.outros;
 
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
