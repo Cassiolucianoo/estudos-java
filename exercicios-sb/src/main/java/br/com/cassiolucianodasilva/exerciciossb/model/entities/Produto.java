@@ -18,8 +18,10 @@ public class Produto {
 	@NotBlank
 	private String nome;
 	
+	
 	@Min(0)
 	private double valor;
+	
 	
 	@Min(0)
 	@Max(1)
@@ -31,9 +33,10 @@ public class Produto {
 
 	public Produto(String nome, double valor, double desconto) {
 		super();
-		this.desconto = desconto;
+	
 		this.nome = nome;
 		this.valor = valor;
+		this.desconto = desconto;
 	}
 
 	public String getNome() {
@@ -61,7 +64,7 @@ public class Produto {
 
 	public void setValor(double valor) {
 
-		this.valor = this.desconto;
+		this.valor = valor;
 
 	}
 

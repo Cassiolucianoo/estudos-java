@@ -70,11 +70,18 @@ public class ProdutoController {
 		return produtoRepository.findAll();
 	}
 	
+	@GetMapping(path="/nome/{parteNome}")
+	public Iterable<Produto> obterProdutosPorNome(@PathVariable String parteNome) {
+		//return produtoRepository.findByNomeContainingIgnoreCase(parteNome);
+		return produtoRepository.searchByNameLike(parteNome);
+	}
+	
 	@GetMapping(path="/{id}")
 	public Optional<Produto> obterProdutoId(@PathVariable int id){
 		return produtoRepository.findById(id);
 	}
 	
+	// Esse metodo está na linha do post
 //	@PutMapping
 //	public Produto AlterarProduto(Produto produto) {
 //		produtoRepository.save(produto);
