@@ -15,7 +15,6 @@
 - Operadores
 - Operadores Aritméticos
 - Operadores Lógicos 
-- Operadores Lógicos 
 - Desafio Operadores Lógicos
 - Operadores Relacionais
 - Operadores Atribuição
